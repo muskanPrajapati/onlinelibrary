@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online lib</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <nav class="nav">
+        <h2>WELCOME TO ONLINE LIBRARY</h2>
+    </nav>
+
+    <div id="msg"></div>
+
+    <div class="container">
+        <h2>MIDLAND LIBRARY</h2>
+        <form id="libraryForm" class="form-check">
+            <div class="label">
+                <label for="bookname" class='label-des'>NAME</label>
+                <label for="author" class='label-des'>AUTHOR</label>
+                <label for="type" class='label-des'>TYPE</label>
+            </div>
+
+            <div class="label-input">
+                <input type="text" id="bookname" placeholder="Book Name">
+                <input type="text" id="author" placeholder="Author Name">
+                <div class="radio-btn">
+                    <input type="radio" name="type" value="fiction" id="fiction"> FICTION <BR>
+                    <input type="radio" name="type" value="programming" id="programming"> COMPUTER
+                    PROGRAMMING <BR>
+                    <input type="radio" name="type" value="science" id="science"> SCIENCE
+                </div>
+            </div>
+            <button class="btn">Add Book!!</button>
+        </form>
+    </div>
+
+    <div class="table-des">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+</body>
+<script src="js.js"></script>
+
+</html>

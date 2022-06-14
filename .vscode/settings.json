@@ -1,0 +1,12 @@
+{
+    "cSpell.ignoreWords": [
+        "bookname",
+        "closebtn",
+        "muskan",
+        "tablebody",
+        "uistring"
+    ],
+    "editor.tabSize": 10,
+    "editor.renderWhitespace": "selection",
+    "editor.fontSize": 15
+}
